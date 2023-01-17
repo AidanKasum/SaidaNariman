@@ -1,0 +1,213 @@
+@media (max-width: 1100px) {
+  .feedback_inner {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    flex-wrap: wrap;
+  }
+  .feedback_item-video {
+    max-width: 220px;
+  }
+  .header_heading {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .header_content p {
+    color: #3db1b3;
+    font-size: 18px;
+  }
+  .cours_btn {
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 970px) {
+  .feedback_item {
+    margin: auto;
+  }
+  .program_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .program_month {
+    min-width: 300px;
+    margin-bottom: 30px;
+    min-height: 263px;
+  }
+  .why_us-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .speakers_item {
+    max-width: 250px;
+    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+  }
+  .form_row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .form_content {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .form_body {
+    max-width: 100%;
+  }
+  .section {
+    padding: 35px 0;
+  }
+}
+@media (max-width: 910px) {
+  .header_row {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .header_content {
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .header_saida-info {
+    left: 125px;
+  }
+}
+@media (max-width: 676px) {
+  .nav_list {
+    display: none;
+  }
+  .for_whom-inner {
+    grid-template-columns: 1fr;
+  }
+  .header_saida-info {
+    left: 79px;
+  }
+
+  .hamb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamb__field {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: #000;
+    transition: 0.2s;
+  }
+
+  .header_title {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .nav_bar {
+    padding: 15px 0;
+  }
+
+  .popup {
+    position: fixed;
+    top: 75px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    transition: 0.3s;
+  }
+
+  .popup.open {
+    left: 0;
+  }
+
+  .popup .menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 50px 0;
+    overflow: auto;
+  }
+
+  .popup .menu > li {
+    width: 100%;
+  }
+
+  .popup .menu > li > a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3f3f3f;
+  }
+
+  .popup .menu > li > a:hover {
+    background-color: rgba(122, 82, 179, 0.1);
+  }
+
+  .hamb__field.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamb__field.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamb__field.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  body.noscroll {
+    overflow: hidden;
+  }
+}
+@media (max-width: 540px) {
+  .why_us-card img {
+    max-width: 30px;
+  }
+  .why_us-card {
+    font-size: 15px;
+  }
+  .header_heading {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .header_content p {
+    color: #3db1b3;
+    font-size: 16px;
+  }
+  .header_saida-info {
+    left: 20px;
+  }
+  .header_saida-info {
+    font-size: 16px;
+  }
+  .why_us-card {
+    font-size: 12px;
+  }
+  .main_title {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+@media (max-width: 392px) {
+}
